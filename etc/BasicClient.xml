@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+	<client>
+		<serverIP>127.0.0.1</serverIP>
+		<serverPort>10001</serverPort>
+		<numConn>1</numConn>
+		<charset>UTF-8</charset>
+		<interval>10000</interval><!-- sleep time in millisecond -->
+	</client>
+	<console>
+		<!-- Value must be true or false -->
+		<enable>true</enable>
+		<port>10201</port>
+	</console>
+</clients>

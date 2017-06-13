@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+	<error>
+		<errorCode>0000</errorCode>
+		<errorMsg>Success</errorMsg>
+	</error>
+	<error>
+		<errorCode>0001</errorCode><!-- not easy for current framework to implement, maybe mess -->
+		<errorMsg>There are {0} segments left for transaction {1} with {2} segments.</errorMsg>
+	</error>
+	<error>
+		<errorCode>-9001</errorCode>
+		<errorMsg>Exceed the maximum number of connections, current connection will terminate immediately.</errorMsg>
+	</error>
+	<error>
+		<errorCode>-9002</errorCode>
+		<errorMsg>Not found serial number.</errorMsg>
+	</error>
+	<error>
+		<errorCode>-9003</errorCode>
+		<errorMsg>No matched serial number.</errorMsg>
+	</error>
+	<error>
+		<errorCode>-9004</errorCode>
+		<errorMsg>No such business id.</errorMsg>
+	</error>
+	<error>
+		<errorCode>-9005</errorCode><!-- not easy for current framework to implement, maybe mess -->
+		<errorMsg>There is something wrong with transaction {0}.</errorMsg>
+	</error>
+</errors>

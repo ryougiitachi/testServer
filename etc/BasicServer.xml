@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+	<server>
+		<ip>127.0.0.1</ip>
+		<port>10001</port>
+		<maxConn>5</maxConn>
+		<!-- regular expressions, separated by "|"  -->
+		<filter>10.237.88.[0-9]{1,3}</filter>
+		<charset>UTF-8</charset>
+	</server>
+	<console>
+		<!-- Value must be true or false -->
+		<enable>true</enable>
+		<port>10101</port>
+	</console>
+</servers>
